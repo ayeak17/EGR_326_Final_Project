@@ -14,11 +14,33 @@
 #include <stdio.h>
 #include <stm32f446xx.h>
 
+//Functions
+void main_setup(void);
+
+
 //LCD
 #include "ILI9341.h"
 #include "RccConfig.h"
 #include "font_ubuntu_mono_24.h"
 #include "my_photos.h"
 #include "spi.h"
+
+//7-segment
+#include "seven_segment.h"
+
+//Big Motor
+
+//Keypad
+
+//Sonar
+
+//Neopixel
+
+//Small motor
+
+//Rotary Encoder
+
+//EEPROM
+
 
 #endif

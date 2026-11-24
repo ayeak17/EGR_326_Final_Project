@@ -11,7 +11,7 @@
 
 int main()
 {
-
+	main_setup();
 
 	while (1)
 	{
@@ -19,3 +19,15 @@ int main()
 	}
 }
 
+void main_setup()
+{
+	Display_Init(); //set up LCD
+	// Splash screen
+	Draw_Bitmap((TFT_WIDTH - jeff->width) / 2, (TFT_HEIGHT - jeff->height) / 2,
+                jeff);
+	delayMS(4000);
+	Fill_Screen(GRAY);
+
+	SS_spi_init();	//set up seven segment
+	
+}
