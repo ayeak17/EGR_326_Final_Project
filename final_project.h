@@ -29,6 +29,7 @@ void main_setup(void);
 #include "seven_segment.h"
 
 //Big Motor
+#include "large_motor.h"
 
 //Keypad
 
