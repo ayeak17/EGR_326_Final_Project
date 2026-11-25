@@ -29,5 +29,9 @@ void main_setup()
 	Fill_Screen(GRAY);
 
 	SS_spi_init();	//set up seven segment
+
+	LM_setup();
+
+	keypad_setup();
 	
 }

@@ -32,6 +32,7 @@ void main_setup(void);
 #include "large_motor.h"
 
 //Keypad
+#include "keypad.h"
 
 //Sonar
 
