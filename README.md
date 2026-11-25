@@ -10,7 +10,7 @@ PB5 - MOSI
 PB6 - Reset
 
 --Hall Effect--
-PA0
+PA0 (Any TIM5 pin)
 
 --7-segment--
 PB13 - SPI2 SCK (AF5)

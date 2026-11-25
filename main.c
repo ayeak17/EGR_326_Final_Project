@@ -33,5 +33,7 @@ void main_setup()
 	LM_setup();
 
 	keypad_setup();
+
+	sonar_setup();
 	
 }

@@ -35,6 +35,7 @@ void main_setup(void);
 #include "keypad.h"
 
 //Sonar
+#include "sonar.h"
 
 //Neopixel
 
